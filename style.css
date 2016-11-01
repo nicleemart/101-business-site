@@ -26,25 +26,28 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-bottom: 50px;
+	padding: 40px 10px 0 0;
+	box-shadow: 0px 30px 40px 0px #F5F5F5;
 }
 .nav {
 	display: flex;
 	list-style: none;
 }
 .nav__link {
-	padding-right: 40px;
+	margin: 0 40px 0 0;
 }
 .nav__button {
+	margin: 0;
 	color: #fff;
 	background: #FD907A;
-	padding: 10px 20px;
+	padding: 10px 30px;
 	border-radius: 35px;
 }
-.services {
+.row {
 	width: 1000px;
 	display: flex;
 	justify-content: space-between;
+	padding: 50px 0;
 }
 .service {
 	width: 300px;
@@ -60,11 +63,26 @@ body {
 	color: #FD907A;
 	font-size: 16px;
 }
+.l-service__name {
+	padding: 40px 0 0 0;
+}
+.service__border {
+	padding: 20px 0;
+}
 .service__description {
 	text-align: center;
 	line-height: 20px;
 }
+.line {
+	width: 1000px;
+	border-top: 1px solid #F5F5F5;
+}
 .footer {
 	width: 1000px;
 	background: #FCFBF4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footerImg {
 }
